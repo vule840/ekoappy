@@ -1,0 +1,679 @@
+@font-face {
+	font-family: 'Semplicita Pro Regular';
+	src: url('fonts/SemplicitaProRegular.otf')
+}
+@font-face {
+	font-family: 'Semplicita Pro Bold';
+	src: url('fonts/SemplicitaProBold.otf')
+}
+
+html {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Semplicita Pro Regular';
+	width: auto;
+	max-width: 100%;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 3%;
+}
+
+#container {
+	width: 100%;
+	max-width: 100%;
+}
+
+/* Header */
+#header {
+	width: auto;
+	clear: both;
+}
+
+#logo img {
+	width: 300px;
+	max-width: 300px;
+	float: left;
+}
+
+.navigation {
+	float: right;
+  padding-top: 120px;
+	font-family: 'Semplicita Pro Bold';
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	overflow: hidden;
+}
+
+.navigation .icon {
+  display: none;
+}
+
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li {
+	display: inline;
+	vertical-align: text-bottom;
+	padding-right: 50px;
+}
+
+.navigation li a {
+	color: #000;
+	text-decoration: none;
+}
+
+.navigation li a:hover, a:active {
+	transition: color 0.5s ease-in-out;
+	color: #B6D160;
+}
+
+.navigation li.kontakt {
+	padding-right: 0 !important;
+}
+
+img.banner {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+/* First section "Sok od jabuka" */
+#sok {
+	padding-bottom: 100px;
+}
+
+h1.heading {
+	font-family: 'Semplicita Pro Bold';
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+hr.line {
+	color: #B6D160;
+	background-color: #B6D160;
+	width: 70px;
+	height: 4px;
+	border: none;
+	text-align: center;
+	font-weight: 900;
+	font-family: 'Semplicita Pro Bold';
+	margin-bottom: 50px;
+}
+
+#sok-thirds {
+	padding-bottom: 100px;
+}
+
+.first-third, .third-third {
+	width: 33%;
+	max-width: 33%;
+	min-width: 33%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.second-third {
+	width: 34%;
+	max-width: 34%;
+	min-width: 34%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+.sok_mobile{
+	width: 80%;
+	max-width: 80%;
+	min-width: 80%;
+	margin: 0 auto;
+}
+/* First feature "100% organski" */
+.feature-first {
+	text-align: left;
+	padding-top: 200px;
+}
+
+#sok h1.first {
+	font-family: 'Semplicita Pro Regular';
+	letter-spacing: 3px;
+	font-weight: 200;
+	text-transform: uppercase;
+	padding-left: 60px;
+	margin-bottom: -1px;
+	font-size: 30px;
+	}
+
+/*Second feature "Nefiltriran" */
+.feature-second {
+	text-align: right;
+	padding-top: 300px;
+	}
+
+#sok h1.second {
+	font-family: 'Semplicita Pro Regular';
+	letter-spacing: 3px;
+	font-weight: 200;
+	text-transform: uppercase;
+	padding-right: 60px;
+	margin-bottom: -1px;
+	font-size: 30px;
+	}
+
+/* Third feature "Sladak i zdrav" */
+.feature-third {
+	text-align: right;
+	padding-top: 100px;
+	padding-right: 200px;
+	}
+
+#sok h1.third {
+	font-family: 'Semplicita Pro Regular';
+	letter-spacing: 3px;
+	font-weight: 200;
+	text-transform: uppercase;
+	padding-right: 55px;
+	margin-bottom: -1px;
+	font-size: 30px;
+	}
+
+/* Fourth feature "Bez dodataka..." */
+.feature-fourth {
+	text-align: left;
+	padding-top: 250px;
+	padding-right: 180px;
+	}
+
+#sok h1.fourth {
+	font-family: 'Semplicita Pro Regular';
+	letter-spacing: 3px;
+	font-weight: 200;
+	text-transform: uppercase;
+	padding-left: 65px;
+	margin-bottom: -1px;
+	font-size: 30px;
+	}
+
+/* Fifth feature "Hrvatski proizvod" */
+.feature-fifth {
+	text-align: right;
+	padding-top: 90px;
+	padding-right: 60px;
+	}
+
+#sok h1.fifth {
+	font-family: 'Semplicita Pro Regular';
+	letter-spacing: 3px;
+	font-weight: 200;
+	text-transform: uppercase;
+	padding-right: 55px;
+	margin-bottom: -1px;
+	font-size: 30px;
+	}
+
+
+/* Second section "Jabuke" */
+#jabuke {
+	width: 70%;
+	max-width: 100%;
+	padding: 0 15%;
+	overflow: hidden;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+#jabuka1, #jabuka2, #jabuka3, #jabuka4 {
+	width: 50%;
+	min-width: 50%;
+	float: left;
+	padding-top: 100px;
+}
+
+
+/* Images hover effect */
+.jabuka-container {
+	position: relative;
+	width: 50%;
+	max-width: 50%;
+	min-width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.jabuka {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .7 ease;
+	backface-visibility: hidden;
+	margin: 0 auto;
+}
+
+.img-hover {
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.jabuka-container:hover .jabuka {
+	opacity: 0.5;
+}
+
+.jabuka-container:hover .img-hover {
+	opacity: 1;
+}
+
+.text-hover {
+	background-color: #B6D160;
+	opacity: 0.85;
+	padding: 40px 35px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.text-hover h1 {
+	color: #fff;
+	font-family: 'Semplicita Pro Bold'
+}
+
+/* Third section "Kako kupiti" */
+#gdje-kupiti {
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+
+h2#maloprodaja, h2#veleprodaja {
+	font-family: 'Semplicita Pro Bold';
+	color: #fff;
+	background-color: #B6D160;
+	padding: 15px 60px;
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.maloprodaja, .veleprodaja {
+	width: 50%;
+	min-width: 50%;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+.maloprodaja p, .veleprodaja p {
+	padding: 10px 40px;
+	font-size: 18px;
+}
+
+/* Fourth section "O nama" */
+#o-nama {
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+
+#o-nama img {
+	width: 98%;
+}
+.about-photo, .about-text {
+	width: 50%;
+	min-width: 50%;
+	float: left;
+  position: relative;
+}
+
+.about-text p {
+	margin: 0 0;
+	padding: 0 20px;
+	font-size: 18px;
+}
+
+
+/* Fifth section "Voćnjak" */
+#vocnjak {
+	padding-bottom: 100px;
+}
+
+.mySlides {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slider {
+	position:relative;
+}
+
+button{
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color: #B6D160;
+	background-color: transparent;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	font-size: 50px;
+	font-weight: 200;
+}
+
+.w3-black,.w3-hover-black:hover{
+	color:#fff!important;
+	background-color:#000!important;
+}
+
+.btn-left {
+	position:absolute;
+	top:50%;
+	left:-5%;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(-0%,-50%);
+}
+
+.btn-right{
+	position:absolute;
+	top:50%;
+	right:-5%;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(0%,-50%);
+}
+
+/* Sixth section "Kontakt" */
+#kontakt {
+	padding-bottom: 100px;
+	width: 70%;
+	max-width: 100%;
+	padding: 0 15%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.form-container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.row-left {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.row-right {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+label {
+	text-align: left;
+	display: block;
+	font-size: 18px;
+}
+
+input {
+	display: block;
+	width: 350px;
+	border: 1px solid rgba(0,0,0,0.3);
+	height: 30px;
+}
+
+input#predmet {
+	width: 800px;
+	margin-bottom: 30px;
+}
+
+#kontakt button {
+	display: block;
+	width: 350px;
+	margin: 50px auto;
+	background-color: #B6D160;
+	color: #fff;
+	border: 3px solid #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Semplicita Pro Bold';
+}
+
+#kontakt button:hover {
+	background-color: #fff;
+	border: 3px solid #B6D160;
+	color: #B6D160;
+	transition: color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+}
+
+textarea {
+	width: 800px;
+  height: 200px;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+
+/**************** https://github.com/terwanerik/ScrollTrigger *****************/
+
+
+
+.fromTopIn {
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    -moz-transition: transform 1s ease,opacity 1s ease,-moz-transform 1s ease;
+    -o-transition: transform 1s ease,opacity 1s ease,-o-transform 1s ease;
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    opacity: 1
+}
+
+
+.fromBottomIn,.fromTopOut {
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    -moz-transition: transform 1s ease,opacity 1s ease,-moz-transform 1s ease;
+    -o-transition: transform 1s ease,opacity 1s ease,-o-transform 1s ease
+}
+
+.fromTopOut {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: translate(0,-10px);
+    -moz-transform: translate(0,-10px);
+    -ms-transform: translate(0,-10px);
+    -o-transform: translate(0,-10px);
+    transform: translate(0,-10px);
+    opacity: 0
+}
+
+.fromBottomIn {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    opacity: 1
+}
+
+.fromBottomOut,.fromLeftIn {
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    -moz-transition: transform 1s ease,opacity 1s ease,-moz-transform 1s ease;
+    -o-transition: transform 1s ease,opacity 1s ease,-o-transform 1s ease
+}
+
+.fromBottomOut {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: translate(0,10px);
+    -moz-transform: translate(0,10px);
+    -ms-transform: translate(0,10px);
+    -o-transform: translate(0,10px);
+    transform: translate(0,10px);
+    opacity: 0
+}
+
+.fromLeftIn {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    opacity: 1
+}
+
+.fromLeftOut,.fromRightIn {
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    -moz-transition: transform 1s ease,opacity 1s ease,-moz-transform 1s ease;
+    -o-transition: transform 1s ease,opacity 1s ease,-o-transform 1s ease
+}
+
+.fromLeftOut {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: translate(-10px,0);
+    -moz-transform: translate(-10px,0);
+    -ms-transform: translate(-10px,0);
+    -o-transform: translate(-10px,0);
+    transform: translate(-10px,0);
+    opacity: 0
+}
+
+.fromRightIn {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    opacity: 1
+}
+
+.fromRightOut,.scaleUpIn {
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    -moz-transition: transform 1s ease,opacity 1s ease,-moz-transform 1s ease;
+    -o-transition: transform 1s ease,opacity 1s ease,-o-transform 1s ease
+}
+
+.fromRightOut {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: translate(10px,0);
+    -moz-transform: translate(10px,0);
+    -ms-transform: translate(10px,0);
+    -o-transform: translate(10px,0);
+    transform: translate(10px,0);
+    opacity: 0
+}
+
+.scaleUpIn {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+    opacity: 1
+}
+
+.scaleDownIn,.scaleUpOut {
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    -moz-transition: transform 1s ease,opacity 1s ease,-moz-transform 1s ease;
+    -o-transition: transform 1s ease,opacity 1s ease,-o-transform 1s ease
+}
+
+.scaleUpOut {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: scale(1.3,1.3);
+    -moz-transform: scale(1.3,1.3);
+    -ms-transform: scale(1.3,1.3);
+    -o-transform: scale(1.3,1.3);
+    transform: scale(1.3,1.3);
+    opacity: 0
+}
+
+.scaleDownIn {
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+    opacity: 1
+}
+
+.scaleDownOut {
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    -moz-transition: transform 1s ease,opacity 1s ease,-moz-transform 1s ease;
+    -o-transition: transform 1s ease,opacity 1s ease,-o-transform 1s ease;
+    transition: transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease,-webkit-transform 1s ease,-moz-transform 1s ease,-o-transform 1s ease;
+    -webkit-transform: scale(.7,.7);
+    -moz-transform: scale(.7,.7);
+    -ms-transform: scale(.7,.7);
+    -o-transform: scale(.7,.7);
+    transform: scale(.7,.7);
+    opacity: 0
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-image: none;
+    cursor: pointer;
+    padding: 0.5em 0.8em;
+    border-radius: 18px;
+    color: #fff;
+    background-color: #B5CE69;
+    border-color: #B5CE69;
+    font-size: 1.4em;
+}
+#sok_mobile{
+	display: none;
+}
